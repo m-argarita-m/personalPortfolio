@@ -1,0 +1,12 @@
+/* Main CSS file */
+body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 2em;
+}
