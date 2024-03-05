@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Link, Menu, MenuButton, MenuList, MenuItem, IconButton, Image } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
-import home_AM from '../assets/home_AM.png';
 
 const Header: React.FC = () => {
   return (
@@ -18,7 +17,7 @@ const Header: React.FC = () => {
     >
       {/* Home Link/Button */}
       <Link href="/">
-        <Image src={home_AM} alt="Home" htmlWidth="50px" htmlHeight="auto" /> 
+        <Image src={`../assets/home_AM.png`} alt="Home" htmlWidth="50px" htmlHeight="auto" /> 
       </Link>
 
       {/* Expandable Menu */}
